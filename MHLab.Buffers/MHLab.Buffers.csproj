@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.1</Version>
+    <Authors>Emanuele Manzione</Authors>
+    <Company>MHLab</Company>
+    <Description>A library to manage writing/reading to/from a buffer, at the bit level. It is performance oriented, to optimized memory/bandwidth usage.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MHLab.Pooling" Version="0.0.2" />
+  </ItemGroup>
 
 </Project>
